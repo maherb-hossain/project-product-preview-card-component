@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.country{
+    min-height: 550px;
+}
+/* .row{
+    display: flex;
+    flex-wrap:wrap;
+} */
+
+ 
+/* HEADER STARTS */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+#perfum{
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 22px;
+    width: 600px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+}
+#perfum  img{
+    width: 300px;
+    height: 530px;
+    object-fit: cover;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.perfum_cnt{
+    padding: 40px;
+}
+#perfum .perfum_cnt h5{
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color:  hsl(228, 12%, 48%);
+} 
+#perfum .perfum_cnt h2{
+    margin: 26px 0px 26px;
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    color:  hsl(212, 21%, 14%);
+} 
+#perfum .perfum_cnt p{
+    margin: 14px 0px 14px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:  hsl(228, 12%, 48%);
+} 
+.price{
+    margin: 40px 0px 40px;
+}
+#perfum .perfum_cnt .priceA{
+    margin-right:25px;
+    font-size: 27px;
+    font-family: 'Fraunces', serif;
+    color:  hsl(158, 36%, 37%);
+} 
+#perfum .perfum_cnt .priceB{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%);
+} 
+button{
+    background-color: hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    border-style: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: hsl(158, 45%, 20%);
+    cursor: pointer;
+}
+
+/* HEADER ENDS */
+
+
+/* FOOTER STARTS */
+
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color:hsl(228, 12%, 48%) ;
+}
+.footer a{
+    color: hsl(158, 36%, 37%);
+    font-weight: 500px;
+}
+
+/* FOOTER ENDS */
